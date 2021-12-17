@@ -136,7 +136,7 @@ body {
 
 .toleft--icon {
     padding: 15px;
-    background-color: #222;
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
     transition: transform .2s ease;
