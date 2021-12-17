@@ -7,6 +7,7 @@ const colors = document.querySelectorAll(".color--item")
 const calculator = document.querySelector(".calculator");
 
 openBtn.addEventListener("click", () => {
+    openBtn.classList.toggle("rotate")
     colorBox.classList.toggle("active");
 })
 

@@ -139,8 +139,11 @@ body {
     background-color: #222;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform .2s ease;
 }
-
+.toleft--icon.rotate{
+    transform: rotate(180deg);
+}
 .color-1 {
     background-color: #262626;
 }
